@@ -72,4 +72,50 @@ I enjoy writing clean, elegant code, improving every detail, and bringing ideas 
 
 ## 📦 Extra: Contribution Snake Animation
 
-![snake gif](https://github.com/Vladyslav-Karpenko/Vladyslav-Karpenko/blob/output/github-contribution-grid-snake.svg)
+> ⚠️ The snake animation link shows **404** because you don’t yet have the GitHub Action that generates the SVG.
+>
+> Add this workflow to your repository at:
+> **.github/workflows/snake.yml**
+
+```yaml
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: Vladyslav-Karpenko
+          outputs: dist/snake.svg
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: snake
+          path: dist/snake.svg
+
+      - name: Deploy snake animation to GitHub Pages branch
+        uses: crazy-max/ghaction-github-pages@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          target_branch: output
+          build_dir: dist
+```
+
+After workflow runs once, use this in your README:
+
+```md
+![snake gif](https://github.com/Vladyslav-Karpenko/Vladyslav-Karpenko/blob/output/snake.svg)
+```
