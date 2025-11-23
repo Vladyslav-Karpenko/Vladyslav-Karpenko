@@ -9,7 +9,7 @@ I enjoy writing clean, elegant code, improving every detail, and bringing ideas 
 ## 📢 Connect with me
 
 [![Gmail](https://img.shields.io/badge/Gmail-vladyslav.karpenko.cz%40gmail.com-red?logo=gmail)](mailto:vladyslav.karpenko.cz@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vladyslav%20Karpenko-blue?logo=linkedin)](https://www.linkedin.com/in/vladyslav-karpenko)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vladyslav%20Karpenko-blue?logo=linkedin)](https://www.linkedin.com/in/vladyslav-karpenko)
 [![GitHub](https://img.shields.io/badge/GitHub-Vladyslav--Karpenko-black?logo=github)](https://github.com/Vladyslav-Karpenko)
 
 ---
