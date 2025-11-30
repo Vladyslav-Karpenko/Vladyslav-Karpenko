@@ -36,9 +36,9 @@ I enjoy writing clean, elegant code, improving every detail, and bringing ideas 
 
 ## 📊 My GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Vladyslav-Karpenko&show_icons=true&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats-git-masterorg.vercel.app/api?username=Vladyslav-Karpenko&show_icons=true&theme=tokyonight)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Vladyslav-Karpenko&layout=compact&theme=tokyonight)
+![Top Langs](https://github-readme-stats-git-masterorg.vercel.app/api/top-langs/?username=Vladyslav-Karpenko&layout=compact&theme=tokyonight)
 
 
 
